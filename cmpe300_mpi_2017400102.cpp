@@ -233,7 +233,7 @@ int main(int argc, char *argv[])
 			set<int> resultSet; //set for master's results
 
 			//putting the results to set to remove the duplicates
-			for(int i=0;i<topFeaturesNumb*totalRank;i++){
+			for(int i=2;i<topFeaturesNumb*totalRank;i++){
 				resultSet.insert(masterTopFeatures[i]);
 			}
 
